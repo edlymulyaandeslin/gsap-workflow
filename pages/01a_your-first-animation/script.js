@@ -9,7 +9,7 @@ gsap.to('.card', {
       y: -20,
       repeat: -1,
       yoyo: true,
-      duration: 0.5,
+      duration: 0.3,
     });
   },
 });

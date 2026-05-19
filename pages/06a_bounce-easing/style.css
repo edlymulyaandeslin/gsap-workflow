@@ -1,0 +1,15 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background: rgb(255, 0, 140);
+  opacity: 1;
+  border-radius: 50%;
+  border: 2px dashed rgb(0, 0, 0);
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 60px;
+}

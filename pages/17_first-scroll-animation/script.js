@@ -28,7 +28,7 @@ tl.from('.content-wrapper h1', {
       scrollTrigger: {
         trigger: '.content-wrapper p',
         start: 'top center',
-        scrub: 1,
+        scrub: true,
       },
     },
   )
@@ -47,7 +47,7 @@ tl.from('.content-wrapper h1', {
         trigger: '.badge-wrapper .badge',
         start: 'top center',
         end: 'bottom 90%',
-        scrub: 1,
+        scrub: true,
       },
     },
   )
@@ -70,7 +70,7 @@ tl.from('.content-wrapper h1', {
         trigger: '.wrapper .card',
         start: 'top center',
         end: 'center 80%',
-        scrub: 1,
+        scrub: 1.5,
       },
     },
   );
